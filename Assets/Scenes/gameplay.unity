@@ -1533,7 +1533,7 @@ MonoBehaviour:
   spacing: 3
   width: 5
   spawnHeight: 10
-  spawnBound: 5
+  spawnBound: 4
   gameOverPanel: {fileID: 153507538}
 --- !u!212 &1877882592
 SpriteRenderer:
@@ -1687,7 +1687,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1794,7 +1794,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2113576194478590632, guid: 54caf5be728fd3f41ac92c2d0682b9c5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113576194478590632, guid: 54caf5be728fd3f41ac92c2d0682b9c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2113576194478590632, guid: 54caf5be728fd3f41ac92c2d0682b9c5, type: 3}
       propertyPath: m_LocalPosition.x
