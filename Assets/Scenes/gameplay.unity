@@ -1913,7 +1913,8 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1088754995}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
